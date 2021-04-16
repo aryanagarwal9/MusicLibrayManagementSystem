@@ -1,5 +1,5 @@
 import pymysql as P
 
-Conn=P.connect("localhost", "root", "casper#123", "Project")
+Conn=P.connect("localhost", "root", "<Enter password>", "<Enter Database Name>")
 
 Cur=Conn.cursor()
