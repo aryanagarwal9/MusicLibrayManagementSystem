@@ -297,4 +297,6 @@ def Menu():
 
         else:
             print("\nInvalid Option, Try Again")
+            
+CreatePlaylist()
 Menu()
