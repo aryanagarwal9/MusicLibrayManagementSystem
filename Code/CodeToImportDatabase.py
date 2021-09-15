@@ -1,5 +1,5 @@
 #This Code is used to transfer the contents of the csv file into a MySQL Table
-#test
+
 import pymysql as P
 
 Conn=P.connect("localhost", "root", "<Enter Password>", "<Enter Database Name>")
@@ -10,7 +10,7 @@ Command=f'create table Songs(SNo char(3) primary key, Track_Name varchar(50) not
 Cur.execute(Command)
 
 import csv
-with open("/Users/aryanagarwal/Desktop/Computer Science/CS Practical/CSProject/CS Project Song Database.csv","r") as n:
+with open("<Enter Path of CSV File>","r") as n: #Download CSV File from the Database Folder
     a = csv.reader(n)
     next(a)
 
