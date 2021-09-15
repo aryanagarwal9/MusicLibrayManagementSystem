@@ -1,5 +1,5 @@
 #This Code is used to transfer the contents of the csv file into a MySQL Table
-
+#test
 import pymysql as P
 
 Conn=P.connect("localhost", "root", "<Enter Password>", "<Enter Database Name>")
